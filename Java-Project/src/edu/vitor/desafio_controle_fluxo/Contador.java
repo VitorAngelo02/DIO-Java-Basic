@@ -17,7 +17,7 @@ public class Contador {
 			//imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
             System.out.println("Os parâmetros informados são inválidos, favor indicar dois números, sendo o primeiro maior que o segundo.");
 		}
-		
+		terminal.close();
 	}
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
 		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
