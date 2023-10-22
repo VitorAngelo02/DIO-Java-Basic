@@ -1,3 +1,5 @@
+package edu.vitor.primeirasaulas;
+
 public class Usuario {
     
     public static void main(String[] args) {

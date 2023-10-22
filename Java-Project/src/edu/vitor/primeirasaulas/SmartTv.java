@@ -1,3 +1,5 @@
+package edu.vitor.primeirasaulas;
+
 public class SmartTv {
 
     boolean ligada = false;

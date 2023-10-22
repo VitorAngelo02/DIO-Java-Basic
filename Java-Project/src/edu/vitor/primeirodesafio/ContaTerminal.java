@@ -1,3 +1,5 @@
+package edu.vitor.primeirodesafio;
+
 import java.util.Scanner;
 
 public class ContaTerminal {
@@ -23,6 +25,6 @@ public class ContaTerminal {
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + 
                             agencia + ", conta " + conta + " e seu saldo R$" + saldo + " já está disponível para saque.");
         
-                            
+        scanner.close();
     }
 }
